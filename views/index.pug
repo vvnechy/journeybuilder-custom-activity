@@ -25,8 +25,13 @@ block content
               
           label.slds-form-element__label.slds-p-top_medium(for='Text')
             abbr.slds-required(title='required')
-            | Text *
+            | Title *
           .slds-form-element__control
-            input#Text.slds-input.js-activity-setting(required='', placeholder='', name='text')
+            input#Title.slds-input.js-activity-setting(required='', placeholder='', name='text')
+
+            label.slds-form-element__label.slds-p-top_medium(for='Text')
+            | Message
+          .slds-form-element__control
+            textarea#Message.slds-textarea.js-activity-setting(placeholder='', name='message')
 
     footer.slds-card__footer

@@ -23,16 +23,20 @@ exports.config = (req, res) => {
  */
 exports.ui = (req, res) => {
   res.render('index', {
-    title: 'Custom Activity',
+    title: 'Message Logger',
     dropdownOptions: [
       {
-        name: 'Journey Entry',
-        value: 'journeyEntry',
+        name: 'Email',
+        value: 'Email',
       },
       {
-        name: 'Journey Exit',
-        value: 'journeyExit',
+        name: 'SMS',
+        value: 'SMS',
       },
+      {
+        name: 'VK',
+        value: 'VK',
+      }
     ],
   });
 };

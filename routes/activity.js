@@ -27,7 +27,7 @@ exports.execute = async (req, res) => {
         },
         values: {
           Event: data.inArguments[0].DropdownOptions,
-          Text: data.inArguments[0].Text,
+          Title: data.inArguments[0].Title,
         },
       },
     ]);
